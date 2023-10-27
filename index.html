@@ -15,26 +15,37 @@
 </head>
 
 <body>
+
+
     <div id="particles-js"></div>
     <header>
-        <h2>Leroy <span> aurélien</span></h2>
+        <h2>Leroy <span class="dot"> aurélien</span></h2>
         <nav>
-            <a href=""><i class="fa-solid fa-house"></i></a>
-            <a href=""><i class="fa-solid fa-user"></i></a>
-            <a href=""><i class="fa-brands fa-github"></i></a>
-            <a href=""><i class="fa-solid fa-message"></i></a>
-            <a href=""><i class="fa-solid fa-envelope"></i></a>
+            <a href="" data-toggle="tooltip" data-placement="left" data-toggle-content="Accueil"><i class="fa-solid fa-house"></i></a>
+            <a href="" data-toggle="tooltip" data-placement="left" data-toggle-content="Mon profil"><i class="fa-solid fa-user"></i></a>
+            <a href="" data-toggle="tooltip" data-placement="left" data-toggle-content="Mes projets"><i class="fa-brands fa-github"></i></a>
+            <a href="" data-toggle="tooltip" data-placement="left" data-toggle-content="Avis"><i class="fa-solid fa-message"></i></a>
+            <a href=""data-toggle="tooltip" data-placement="left" data-toggle-content="Contact"><i class="fa-solid fa-envelope"></i></a>
         </nav>
     </header>
-    
-    <main class="background_img">
+
+    <main>
         <section class="bienvenu">
             <article>
                 <h1>Développeur Front-end</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat deleniti non soluta sapiente
+                    dignissimos magnam aspernatur? Ducimus nostrum eligendi aut libero rem omnis alias aliquam nam
+                    laboriosam, totam delectus possimus.</p>
+                <a href="#" class="animated-button1 w-50 ">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    Mes spécialités
+                </a>
             </article>
             <aside>
-                <img src="./assets/img/avatar_Leroy.png" alt="">
+                <img src="./assets/img/avatar_Leroy.png" alt="" class="avatar">
             </aside>
         </section>
     </main>
@@ -45,6 +56,7 @@
     </footer>
     <script src="./assets/vendor/particles/particles.js"></script>
     <script src="./assets/js/app.js"></script>
+    <script src="./assets/js/tooltip.js"></script>
 
 </body>
 

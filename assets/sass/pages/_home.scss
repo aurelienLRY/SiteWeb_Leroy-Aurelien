@@ -1,25 +1,56 @@
+@use "../abstracts/variables" as v;
+
 .bienvenu {
-  position: relative;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
-  gap: 10%;
+  justify-content: flex-start;
+ 
 
   article {
     display: flex;
-    flex-direction: column;
-    flex: 1 1 1;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    flex: 1 1 40%;
   }
   aside {
-    z-index: 10;
+    position: relative;
     display: flex;
-    flex: 1 1 1;
+    align-items: end;
+    justify-content: flex-end;
+    width: 100%;
+    height: 80%;
+    flex: 1 0 60%;
+
+    .avatar {
+      position: absolute;
+      right: 15%;
+      z-index: 10;
+      height: 55%;
+      width: auto;
+    }
   }
 
-  h1{
-    font-size: 3em;
+  h1 {
+    font-size: 2.5em;
   }
+}
+
+$background-image: url(../img/bg-explosion.png);
+
+body::before {
+  content: "";
+  position: fixed;
+  z-index: -1;
+  width: 100vw;
+  height: 100%;
+  background: $background-image no-repeat, v.$backgroundColor;
+  background-size: cover; //
+  background-position: right bottom;
+  //background-blend-mode: lighten,color-dodge;
+  background-blend-mode: color-dodge;
 }

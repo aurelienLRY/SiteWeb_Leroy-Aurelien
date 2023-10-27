@@ -23,8 +23,9 @@ z-index: 999;
     text-decoration: none;
     color: v.$color;
     transition: all 200ms ease-in-out;
+  
 
-    &:hover {
+    &:hover , &:focus {
       color: v.$primaryColor;
       transform: scale(1.2);
     }
