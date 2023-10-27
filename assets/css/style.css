@@ -1,0 +1,241 @@
+/* sora-100 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 100;
+  src: url("../fonts/sora-v12-latin-100.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/sora-v12-latin-100.eot?#iefix") format("embedded-opentype"), url("../fonts/sora-v12-latin-100.woff2") format("woff2"), url("../fonts/sora-v12-latin-100.woff") format("woff"), url("../fonts/sora-v12-latin-100.ttf") format("truetype"), url("../fonts/sora-v12-latin-100.svg#Sora") format("svg"); /* Legacy iOS */
+}
+/* sora-200 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 200;
+  src: url("../fonts/sora-v12-latin-200.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/sora-v12-latin-200.eot?#iefix") format("embedded-opentype"), url("../fonts/sora-v12-latin-200.woff2") format("woff2"), url("../fonts/sora-v12-latin-200.woff") format("woff"), url("../fonts/sora-v12-latin-200.ttf") format("truetype"), url("../fonts/sora-v12-latin-200.svg#Sora") format("svg"); /* Legacy iOS */
+}
+/* sora-300 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/sora-v12-latin-300.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/sora-v12-latin-300.eot?#iefix") format("embedded-opentype"), url("../fonts/sora-v12-latin-300.woff2") format("woff2"), url("../fonts/sora-v12-latin-300.woff") format("woff"), url("../fonts/sora-v12-latin-300.ttf") format("truetype"), url("../fonts/sora-v12-latin-300.svg#Sora") format("svg"); /* Legacy iOS */
+}
+/* sora-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/sora-v12-latin-regular.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/sora-v12-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/sora-v12-latin-regular.woff2") format("woff2"), url("../fonts/sora-v12-latin-regular.woff") format("woff"), url("../fonts/sora-v12-latin-regular.ttf") format("truetype"), url("../fonts/sora-v12-latin-regular.svg#Sora") format("svg"); /* Legacy iOS */
+}
+/* sora-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/sora-v12-latin-500.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/sora-v12-latin-500.eot?#iefix") format("embedded-opentype"), url("../fonts/sora-v12-latin-500.woff2") format("woff2"), url("../fonts/sora-v12-latin-500.woff") format("woff"), url("../fonts/sora-v12-latin-500.ttf") format("truetype"), url("../fonts/sora-v12-latin-500.svg#Sora") format("svg"); /* Legacy iOS */
+}
+/* sora-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/sora-v12-latin-600.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/sora-v12-latin-600.eot?#iefix") format("embedded-opentype"), url("../fonts/sora-v12-latin-600.woff2") format("woff2"), url("../fonts/sora-v12-latin-600.woff") format("woff"), url("../fonts/sora-v12-latin-600.ttf") format("truetype"), url("../fonts/sora-v12-latin-600.svg#Sora") format("svg"); /* Legacy iOS */
+}
+/* sora-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/sora-v12-latin-700.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/sora-v12-latin-700.eot?#iefix") format("embedded-opentype"), url("../fonts/sora-v12-latin-700.woff2") format("woff2"), url("../fonts/sora-v12-latin-700.woff") format("woff"), url("../fonts/sora-v12-latin-700.ttf") format("truetype"), url("../fonts/sora-v12-latin-700.svg#Sora") format("svg"); /* Legacy iOS */
+}
+/* poppins-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/poppins-v20-latin-regular.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/poppins-v20-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/poppins-v20-latin-regular.woff2") format("woff2"), url("../fonts/poppins-v20-latin-regular.woff") format("woff"), url("../fonts/poppins-v20-latin-regular.ttf") format("truetype"), url("../fonts/poppins-v20-latin-regular.svg#Poppins") format("svg"); /* Legacy iOS */
+}
+/* poppins-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/poppins-v20-latin-500.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/poppins-v20-latin-500.eot?#iefix") format("embedded-opentype"), url("../fonts/poppins-v20-latin-500.woff2") format("woff2"), url("../fonts/poppins-v20-latin-500.woff") format("woff"), url("../fonts/poppins-v20-latin-500.ttf") format("truetype"), url("../fonts/poppins-v20-latin-500.svg#Poppins") format("svg"); /* Legacy iOS */
+}
+/* poppins-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/poppins-v20-latin-600.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/poppins-v20-latin-600.eot?#iefix") format("embedded-opentype"), url("../fonts/poppins-v20-latin-600.woff2") format("woff2"), url("../fonts/poppins-v20-latin-600.woff") format("woff"), url("../fonts/poppins-v20-latin-600.ttf") format("truetype"), url("../fonts/poppins-v20-latin-600.svg#Poppins") format("svg"); /* Legacy iOS */
+}
+/* poppins-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/poppins-v20-latin-700.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/poppins-v20-latin-700.eot?#iefix") format("embedded-opentype"), url("../fonts/poppins-v20-latin-700.woff2") format("woff2"), url("../fonts/poppins-v20-latin-700.woff") format("woff"), url("../fonts/poppins-v20-latin-700.ttf") format("truetype"), url("../fonts/poppins-v20-latin-700.svg#Poppins") format("svg"); /* Legacy iOS */
+}
+/* poppins-800 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/poppins-v20-latin-800.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/poppins-v20-latin-800.eot?#iefix") format("embedded-opentype"), url("../fonts/poppins-v20-latin-800.woff2") format("woff2"), url("../fonts/poppins-v20-latin-800.woff") format("woff"), url("../fonts/poppins-v20-latin-800.ttf") format("truetype"), url("../fonts/poppins-v20-latin-800.svg#Poppins") format("svg"); /* Legacy iOS */
+}
+/* poppins-900 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/poppins-v20-latin-900.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/poppins-v20-latin-900.eot?#iefix") format("embedded-opentype"), url("../fonts/poppins-v20-latin-900.woff2") format("woff2"), url("../fonts/poppins-v20-latin-900.woff") format("woff"), url("../fonts/poppins-v20-latin-900.ttf") format("truetype"), url("../fonts/poppins-v20-latin-900.svg#Poppins") format("svg"); /* Legacy iOS */
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  font-family: "Poppins";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 200;
+  background-color: #150f24;
+  color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px;
+  font-family: "Sora";
+  color: #fe2125;
+  font-weight: 300;
+  font-size: 27px;
+}
+
+main {
+  display: flex;
+  box-sizing: border-box;
+  padding: 0em 5em 0em 5em;
+}
+
+.background_img {
+  z-index: 1;
+  width: 100vw;
+  height: 100%;
+  background: url(../img/bg-explosion.png) no-repeat, #150f24;
+  background-size: cover;
+  background-position: right bottom;
+  background-blend-mode: color-dodge;
+}
+
+header {
+  box-sizing: border-box;
+  padding-left: 10em;
+  padding-top: 2em;
+}
+header h2 {
+  font-size: 45px;
+  font-weight: 600;
+  color: #fff;
+}
+header span {
+  font-weight: 200;
+  font-size: 36px;
+}
+header span::after {
+  content: ".";
+  color: #fe2125;
+}
+
+nav {
+  z-index: 999;
+  position: fixed;
+  top: 50%;
+  right: 1%;
+  height: auto;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8em;
+  background-color: rgba(210, 201, 233, 0.1);
+  border-radius: 3em;
+  padding: 1.5em 0.9em 1.5em 0.9em;
+}
+nav a {
+  font-size: 1.5em;
+  text-decoration: none;
+  color: #fff;
+  transition: all 200ms ease-in-out;
+}
+nav a:hover {
+  color: #fe2125;
+  transform: scale(1.2);
+}
+
+#particles-js {
+  z-index: 1;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 70%;
+  height: 70%;
+}
+
+.bienvenu {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10%;
+}
+.bienvenu article {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 1;
+}
+.bienvenu aside {
+  z-index: 10;
+  display: flex;
+  flex: 1 1 1;
+}
+.bienvenu h1 {
+  font-size: 3em;
+}
+
+/*# sourceMappingURL=style.css.map */

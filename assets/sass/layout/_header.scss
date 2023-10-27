@@ -1,0 +1,23 @@
+@use "../abstracts/variables" as v;
+
+header {
+  box-sizing: border-box;
+  padding-left: 10em;
+  padding-top: 2em;
+  
+  h2 {
+    font-size: v.$fontSize * 2.5;
+    font-weight: 600;
+    color: v.$color;
+  }
+
+  span {
+    font-weight: 200;
+    font-size: v.$fontSize * 2;
+
+    &::after {
+      content: ".";
+      color: v.$primaryColor;
+    }
+  }
+}

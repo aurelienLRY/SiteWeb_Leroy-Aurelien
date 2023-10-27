@@ -1,0 +1,49 @@
+@use "../abstracts/variables" as v;
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  font-family: v.$fontFamily;
+  font-size: v.$fontSize;
+  font-style: normal;
+  font-weight: 200;
+  background-color: v.$backgroundColor;
+  color: v.$color;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px;
+  font-family: v.$titleFontFamily;
+  color: v.$titleColor-0;
+  font-weight: 300;
+  font-size: v.$fontSize * 1.5;
+}
+
+
+
+main {
+  display: flex;
+  box-sizing: border-box;
+  padding: 0em 5em 0em 5em;
+}
+
+$background-image: url(../img/bg-explosion.png);
+.background_img {
+ z-index: 1;
+ width: 100vw;
+ height: 100%;
+  background: $background-image no-repeat, v.$backgroundColor ; 
+  background-size: cover;// 
+  background-position: right bottom;
+  //background-blend-mode: lighten,color-dodge;
+  background-blend-mode: color-dodge;
+
+}
