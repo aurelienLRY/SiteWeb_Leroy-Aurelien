@@ -1,11 +1,13 @@
 @use "../abstracts/variables" as v;
+@use "../abstracts/mixins" as m;
 
 header {
+  min-height: 7vh;
   position: relative;
   box-sizing: border-box;
   padding-left: 10em;
-  padding-top: 2em;
-  
+  padding-top: 1em;
+
   h2 {
     font-size: v.$fontSize * 2.5;
     font-weight: 600;
@@ -20,5 +22,8 @@ header {
       content: ".";
       color: v.$primaryColor;
     }
+  }
+  @include m.media("md-mobile") {
+    padding-left: 1em;
   }
 }

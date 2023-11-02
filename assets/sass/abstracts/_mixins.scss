@@ -1,0 +1,13 @@
+@use 'variables' as v;
+
+
+//BREACKPOINTS
+@mixin media($breakpoint) {
+    @if map-has-key(v.$breakpoints, $breakpoint) {
+      @media (max-width: map-get(v.$breakpoints, $breakpoint)) {
+        @content;
+      }
+    } @else {
+      @error "Breakpoint '#{$breakpoint}' not found in $breakpoints map.";
+    }
+  }

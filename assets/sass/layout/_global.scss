@@ -3,7 +3,7 @@
 * {
   margin: 0px;
   padding: 0px;
-  //border: 3px solid green;
+ // border: 1px solid green;
 }
 
 html {
@@ -28,19 +28,18 @@ h6 {
   font-size: v.$fontSize * 1.5;
 }
 
-
-
 main {
   display: flex;
   box-sizing: border-box;
   padding: 0em 5em 0em 5em;
+  min-height: 80vh;
 }
 
 body{
-  display: flex;
-  flex-direction: column
+ // display: flex;
+  flex-direction: column ; 
+  position: relative;
 }
-
 
 
 .w-50{

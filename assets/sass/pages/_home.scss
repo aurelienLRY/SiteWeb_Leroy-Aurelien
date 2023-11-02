@@ -1,47 +1,36 @@
 @use "../abstracts/variables" as v;
 
 .bienvenu {
-  width: 100%;
-  height: 100vh;
+  width: 50%;
+  max-height: 100vh;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
- 
+  text-align: justify;
 
   article {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 1em;
     flex: 1 1 40%;
-  }
-  aside {
-    position: relative;
-    display: flex;
-    align-items: end;
-    justify-content: flex-end;
-    width: 100%;
-    height: 80%;
-    flex: 1 0 60%;
-
-    .avatar {
-      position: absolute;
-      right: 15%;
-      z-index: 10;
-      height: 55%;
-      width: auto;
-    }
   }
 
   h1 {
     font-size: 2.5em;
   }
 }
-
+.avatar {
+  position: fixed;
+  right: 13%;
+  bottom: 0%;
+  z-index: -1;
+  height: 60%;
+  width: auto;
+}
 $background-image: url(../img/bg-explosion.png);
-
 body::before {
   content: "";
   position: fixed;
