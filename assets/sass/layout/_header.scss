@@ -5,25 +5,24 @@ header {
   min-height: 7vh;
   position: relative;
   box-sizing: border-box;
-  padding-left: 10em;
-  padding-top: 1em;
+  width: 100%;
 
   h2 {
-    font-size: v.$fontSize * 2.5;
+    padding-top: 0.5em;
+    padding-left: 2em;
+    font-size: v.$fontSize * 2;
     font-weight: 600;
     color: v.$color;
   }
 
   .dot {
     font-weight: 200;
-    font-size: v.$fontSize * 2;
+    font-size: v.$fontSize * 1.5;
 
     &::after {
       content: ".";
       color: v.$primaryColor;
     }
   }
-  @include m.media("md-mobile") {
-    padding-left: 1em;
-  }
+
 }

@@ -1,7 +1,6 @@
 @use'abstracts';
 @use 'base/typography';
 @use'layout';
-@use'./components/particles';
-@use'./components/btn';
-@use'./components/tooltip';
-@use'pages/home';
+
+
+@use'./section/accueil';

@@ -1,0 +1,73 @@
+@use "../components/particles";
+@use "../components/btn";
+@use "../components/tooltip";
+
+@use "../abstracts/variables" as v;
+@use "../abstracts/mixins" as mix;
+
+#accueil {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0em 1em 0em 1em;
+  min-height: 80vh;
+
+  @include mix.media(desktop) {
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0em 2.5em 0em 2.5em;
+  }
+
+  article {
+    max-width: 600px;
+    margin-top: 3em;
+    text-align: justify;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5em;
+
+    h1 {
+      text-align: center;
+    }
+  }
+
+  .avatar {
+    position: fixed;
+    right: 14%;
+    bottom: -5%;
+    //transform: translateX(50%);
+    z-index: 1;
+    height: auto;
+    min-width: 300px;
+    width: 70%;
+    max-width: 430px;
+  }
+
+  .background {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+}
+
+$background-image: url(../img/bg-explosion.png);
+body::before {
+  content: "";
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background: $background-image no-repeat, v.$backgroundColor;
+  background-size: cover; //
+  background-position: right 30% bottom;
+  //background-blend-mode: lighten,color-dodge;
+  background-blend-mode: color-dodge;
+}

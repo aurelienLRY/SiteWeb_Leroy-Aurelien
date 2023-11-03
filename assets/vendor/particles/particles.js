@@ -1474,7 +1474,7 @@ function isInArray(value, array) {
 
 window.pJSDom = [];
 
-window.particlesJS = function(tag_id, params){
+window.particlesJS =  function(tag_id, params){
 
   //console.log(params);
 

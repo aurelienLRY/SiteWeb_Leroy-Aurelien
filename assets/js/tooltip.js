@@ -1,4 +1,8 @@
-// Sélectionnez tous les éléments avec data-toggle="tooltip"
+/**
+ * 
+ */
+export function tooltip() {
+ // Sélectionnez tous les éléments avec data-toggle="tooltip"
 const tooltipElements = document.querySelectorAll('[data-toggle="tooltip"]');
 
 tooltipElements.forEach((element) => {
@@ -7,8 +11,10 @@ tooltipElements.forEach((element) => {
   const placement = element.dataset.placement;
 
   const tooltipText = document.createElement("span");
-  tooltipText.classList.add("tooltip-text",`tooltip-text--${placement}`);
+  tooltipText.classList.add("tooltip-text");
   tooltipText.textContent = title;
 
   element.appendChild(tooltipText);
 });
+   
+}
