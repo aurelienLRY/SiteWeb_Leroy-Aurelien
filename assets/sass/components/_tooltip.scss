@@ -3,41 +3,10 @@
 /* Styles pour les tooltips */
 .tooltip {
   position: relative;
+  font-weight: 100;
 }
 
-.tooltip-text {
-  white-space: nowrap;
-  font-size: 0.3em;
-  visibility: hidden;
-  background-color: rgba(v.$componentsAlpha, 0.6);
-  color: v.$color;
-  text-align: center;
-  border-radius: 4px;
-  padding: 5px;
 
-  position: absolute;
-
-  opacity: 0;
-  transition: opacity 250ms;
-
-  &--left {
-    right: 100%;
-    top: 50%;
-    transform: translate(-30%, -50%);
-    &::after {
-      content: "";
-      position: absolute;
-      top: 50%;
-      transform: translateY(-50%);
-      right: -6.6px;
-      width: 0;
-      border-left: 7px solid rgba(v.$componentsAlpha, 0.6);
-      border-top: 6px solid transparent;
-      border-bottom: 6px solid transparent;
-      cursor: pointer;
-    }
-  }
-}
 
 .tooltip:hover .tooltip-text,
 .tooltip:focus .tooltip-text {

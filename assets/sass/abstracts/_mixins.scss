@@ -1,0 +1,46 @@
+@use "variables" as v;
+@use "../components/tooltip";
+
+//BREACKPOINTS
+@mixin media($breakpoint) {
+  @if map-has-key(v.$breakpoints, $breakpoint) {
+    @media (min-width: map-get(v.$breakpoints, $breakpoint)) {
+      @content;
+    }
+  } @else {
+    @error "Breakpoint '#{$breakpoint}' not found in $breakpoints map.";
+  }
+}
+
+// Tooltip
+
+@mixin tooltip-left() {
+  white-space: nowrap;
+  font-size: 0.6em;
+  visibility: hidden;
+  background-color: rgba(v.$componentsAlpha, 0.6);
+  color: v.$color;
+  
+  text-align: center;
+  border-radius: 4px;
+  padding: 5px;
+  position: absolute;
+  right: 100%;
+  top: 50%;
+  opacity: 0;
+  transition: opacity 250ms;
+  
+  transform: translate(-1em, -50%);
+  &::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -6.6px;
+    width: 0;
+    border-left: 7px solid rgba(v.$componentsAlpha, 0.6);
+    border-top: 6px solid transparent;
+    border-bottom: 6px solid transparent;
+    cursor: pointer;
+  }
+}

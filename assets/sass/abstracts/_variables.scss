@@ -13,3 +13,16 @@ $fontFamily : "Poppins";
 $titleFontFamily : "Sora";
 $color : #fff;
 $titleColor-0 : #fe2125;
+
+
+// BREACKPOINTS
+// !! Attention modifier uniquement les valeurs !!
+// La mixin "media(nom du breackpoint)" permet d'inclure 
+// @media (min-width:$valeur) {}
+$breakpoints: (
+  sm-mobile: 320px,
+  md-mobile: 576px,
+  tablet: 820px,
+  desktop: 1200px,
+  large-desktop: 1400px,
+);
