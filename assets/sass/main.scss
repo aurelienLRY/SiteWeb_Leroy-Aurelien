@@ -1,6 +1,9 @@
 @use'abstracts';
+@use 'base/reset';
 @use 'base/typography';
 @use'layout';
+@use 'components/loader';
 
 
 @use'./section/accueil';
+@use'./section/monProfil';

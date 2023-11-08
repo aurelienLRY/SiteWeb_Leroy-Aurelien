@@ -5,7 +5,7 @@
 @use "../abstracts/variables" as v;
 @use "../abstracts/mixins" as mix;
 
-#accueil {
+.accueil {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -57,7 +57,7 @@
 }
 
 $background-image: url(../img/bg-explosion.png);
-body::before {
+#accueil::before {
   content: "";
   position: fixed;
   bottom: 0;

@@ -1,0 +1,36 @@
+@use "../abstracts/variables" as v;
+
+#loader {
+  z-index: 750;
+  position: fixed;
+  top: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: v.$backgroundColor-1;
+  animation: 1.5s cubic-bezier(.56,.23,.24,1)  both loader ;
+  &::after {
+    z-index: 752;
+    content: "";
+    position: fixed;
+    top: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: v.$backgroundColor-2;
+    animation: 1.6s cubic-bezier(.56,.23,.32,1) 250ms both loader ;
+  }
+}
+
+
+@keyframes loader {
+    0% {
+        transform: translateX(-100%);
+    }
+    40%, 60%{
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+    
+    
+}

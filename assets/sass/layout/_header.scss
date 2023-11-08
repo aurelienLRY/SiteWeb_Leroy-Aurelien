@@ -2,6 +2,7 @@
 @use "../abstracts/mixins" as m;
 
 header {
+  z-index: 800;
   min-height: 7vh;
   position: relative;
   box-sizing: border-box;

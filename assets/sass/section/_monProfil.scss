@@ -1,4 +1,101 @@
-#mon_profil{
-display: none;
+@use "../abstracts/variables" as v;
+@use "../abstracts/mixins" as mix;
 
+#mon_profil {
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+  padding: 6em 1em 0em 1em;
+
+
+
+  .skills {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5em;
+
+    &_nav {
+      display: flex;
+      justify-content: space-around;
+      padding: 0em 0.5em 0em 0.5em;
+
+      .nav_inter {
+        display: flex;
+        flex-direction: column;
+        flex: 1 1 1;
+        gap: 0.6em;
+        @include mix.media(md-mobile) {
+          flex-direction: row;
+          justify-content: space-around;
+          width: 50%;
+        }
+      }
+
+      a {
+        &::after {
+          content: " ";
+          display: block;
+          width: 100%;
+          border-bottom: 2px solid v.$color;
+          margin-top: 0.4em;
+          transform: scaleX(0.2);
+          transform-origin: (0% 50%);
+          transition: all 250ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+
+        &:hover,
+        &.active {
+          color: v.$primaryColor;
+          &::after {
+            transform: scaleX(1);
+          }
+        }
+      }
+    }
+
+    &_item {
+      overflow: hidden;
+      display: flex;
+
+      .item {
+        display: flex;
+        flex-direction: column;
+        gap: 1.2em;
+        padding: 0em 0.5em 0em 0.5em;
+        animation: 320ms cubic-bezier(0.175, 0.885, 0.32, 1.175) forwards
+          skillsItemAnimationIn;
+        &_row {
+          display: flex;
+          flex-direction: row;
+          gap: 0.6em;
+        }
+        &--center{
+         text-align: center;
+        }
+      }
+    }
+  }
+  #competences {
+    margin-left: 1em;
+    h3 {
+      color: darken($color: v.$color, $amount: 30%);
+      font-size: 1em;
+    }
+    svg {
+      width: auto;
+      height: 1.8em;
+      fill: v.$color;
+    }
+  }
+
+  
+}
+
+@keyframes skillsItemAnimationIn {
+  0% {
+    transform: translateY(-500px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }

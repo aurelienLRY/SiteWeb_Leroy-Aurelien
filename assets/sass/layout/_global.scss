@@ -47,8 +47,9 @@ h3 {
 
 body {
   position: relative;
+  height: 100vh;
 }
 
 .displayNone {
-  display: none;
+  display: none !important;
 }
